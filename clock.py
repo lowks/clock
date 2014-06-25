@@ -75,5 +75,5 @@ def format(dt, timezone, fmt=None):
         return loc_dt.strftime(fmt)
 
 
-now  = datetime.utcnow
+now = datetime.utcnow
 localtimezone = get_localzone()
